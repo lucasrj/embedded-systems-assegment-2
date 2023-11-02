@@ -1,0 +1,11 @@
+timestamp=[2023-11-01 16:12:14], mode=WORKBENCH_START, duration=0:00:05.691, duration_ms=5691, data={}
+timestamp=[2023-11-01 16:12:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.771, duration_ms=771, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-11-01 16:12:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.544, duration_ms=3544, data={}
+timestamp=[2023-11-01 16:15:58], mode=APP_CREATION, duration=0:00:24.248, duration_ms=24248, data={name=Assignemt2, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=u96v2_sbc_mp4d_wrapper_Assignemnt2, application_type=application}
+timestamp=[2023-11-02 15:04:34], mode=PLATFORM_GENERATION, duration=0:03:40.208, duration_ms=220208, data={name=u96v2_sbc_mp4d_wrapper_Assignemnt2}
+timestamp=[2023-11-02 15:05:33], mode=BUILD, duration=0:00:01.935, duration_ms=1935, data={name=Assignemt2, configuration=Debug, clean_build=false}
+timestamp=[2023-11-02 15:09:28], mode=BUILD, duration=0:00:03.071, duration_ms=3071, data={name=Assignemt2, configuration=Debug, clean_build=false}
+timestamp=[2023-11-02 15:24:45], mode=BUILD, duration=0:00:02.485, duration_ms=2485, data={name=Assignemt2, configuration=Debug, clean_build=false}
+timestamp=[2023-11-02 15:31:46], mode=BUILD, duration=0:00:05.738, duration_ms=5738, data={name=Assignemt2, configuration=Debug, clean_build=false}
+timestamp=[2023-11-02 15:55:59], mode=BUILD, duration=0:00:02.594, duration_ms=2594, data={name=Assignemt2, configuration=Debug, clean_build=false}
+timestamp=[2023-11-02 16:29:02], mode=BUILD, duration=0:00:02.412, duration_ms=2412, data={name=Assignemt2, configuration=Debug, clean_build=false}

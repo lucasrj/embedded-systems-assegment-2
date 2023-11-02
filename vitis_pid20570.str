@@ -1,0 +1,301 @@
+/*
+
+Xilinx Vitis v2020.2.0 (64-bit) [Major: 2020, Minor: 2]
+SW Build 3064172 on 2020-11-18-06:24:19
+
+Process ID (PID): 20570
+License: Customer
+
+Current time: 	Wed Nov 01 16:12:15 CET 2023
+Time zone: 	Central European Standard Time (Europe/Copenhagen)
+
+OS: Ubuntu
+OS Version: 5.15.0-84-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1920x1080
+Available screens: 1
+Available disk space: 347 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2020.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib/:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib//server:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vivado/2020.2/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	oliver
+User home directory: /home/oliver
+User working directory: /home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.2/bin
+
+Vitis preferences directory: /home/oliver/.Xilinx/Vitis/2020.2/
+Vitis workspace directory: /home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2/vitis
+Vitis workspace log file location: /home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2/vitis/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectTab("Create a new platform from hardware", "New Application Project (Platform)", "NewAppProjectWizard", "CTabItem.CREATE_A_NEW_PLATFORM");
+selectButton("Browse", "New Application Project (Platform)", "NewAppProjectWizard", "Button.BROWSE");
+setFileDialog("/home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2/vitis/u96v2_sbc_mp4d_wrapper.xsa", "Create Platform from XSA", "SDXFileDialog", "Button.OK");
+setTextField("u96v2_sbc_mp4d_wrapper_Assignemnt2", "New Application Project (Platform)", "NewAppProjectWizard", "Text.PLATFORM_NAME");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("Assignemt2", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("helloworld.c", "Assignemt2_system > Assignemt2 > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2.prj", "Assignemt2_system > Assignemt2", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectButton("Navigate to BSP Settings", "Assignemt2", "SDXSettingsEditor", "Button.NAVIGATE_TO_BSP");
+selectTab("Drivers", "Drivers", "ScwEditor", "TabItem.DRIVERS");
+selectButton("Modify BSP Settings", "u96v2_sbc_mp4d_wrapper_Assignemnt2", "ScwEditor", "Button.MODIFY_BSP_SETTINGS");
+selectTreeTable("Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectTreeTable("standalone", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectTreeTable("stdin", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.PropertyProvider");
+selectTreeTable("stdout", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.PropertyProvider");
+selectTreeTable("Overview", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectTreeTable("standalone", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectTreeTable("psu_cortexa53_0", "Overview > drivers", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectTreeTable("drivers", "Overview", "Board Support Package Settings", "BspSettingsView", "TreeViewer.NavInfoProvider");
+selectButton("OK", "Board Support Package Settings", "BspSettingsView", "Button.OK");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2.prj", "Assignemt2_system > Assignemt2", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("Assignemt2_system.sprj", "Assignemt2_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("lscript.ld", "Assignemt2_system > Assignemt2 > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+setTextField("0x20000", "lscript.ld", "LscriptEditor", "Text.STACK_SIZE");
+setTextField("0x20000", "lscript.ld", "LscriptEditor", "Text.HEAP_SIZE");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("helloworld.c", "Assignemt2_system > Assignemt2 > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("u96v2_sbc_mp4d_wrapper_Assignemnt2", "Assignemt2_system > Assignemt2 > src", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Refresh", "Explorer", "ProjectExplorer", "MenuItem.REFRESH");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("OK", "Open Declaration", "Button", "OK");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("u96v2_sbc_mp4d_wrapper_Assignemnt2", "u96v2_sbc_mp4d_wrapper_Assignemnt2/platform.spr", "ScwEditor", "CTabItem.U96V2_SBC_MP4D_WRAPPER_ASSIGNEMNT2");
+closeView("u96v2_sbc_mp4d_wrapper_Assignemnt2", "u96v2_sbc_mp4d_wrapper_Assignemnt2/platform.spr", "ScwEditor", "CTabItem.U96V2_SBC_MP4D_WRAPPER_ASSIGNEMNT2");
+activateView("lscript.ld", "Assignemt2/src/lscript.ld", "LscriptEditor", "CTabItem.LSCRIPT_LD");
+closeView("lscript.ld", "Assignemt2/src/lscript.ld", "LscriptEditor", "CTabItem.LSCRIPT_LD");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("Assignemt2", "Assignemt2/Assignemt2.prj", "SDXSettingsEditor", "CTabItem.ASSIGNEMT2");
+closeView("Assignemt2", "Assignemt2/Assignemt2.prj", "SDXSettingsEditor", "CTabItem.ASSIGNEMT2");
+activateView("Assignemt2_system", "Assignemt2_system/Assignemt2_system.sprj", "SystemSettingsEditor", "CTabItem.ASSIGNEMT2_SYSTEM");
+closeView("Assignemt2_system", "Assignemt2_system/Assignemt2_system.sprj", "SystemSettingsEditor", "CTabItem.ASSIGNEMT2_SYSTEM");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+selectTextEditor("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.XEXAMPLE_H");
+selectMenuItem("Open Declaration", "xexample.h", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("OK", "Open Declaration", "Button", "OK");
+selectTextEditor("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.XEXAMPLE_C");
+selectMenuItem("Open Declaration", "xexample.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("OK", "Open Declaration", "Button", "OK");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("xexample_linux.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Outline", "ContentOutline", "CTabItem.OUTLINE");
+selectTree("XExample_Initialize", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", "Outline", "ContentOutline", "Tree.xexample_linux_c");
+selectTree("XExample_Release", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", "Outline", "ContentOutline", "Tree.xexample_linux_c");
+selectTree("XExample_Initialize", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", "Outline", "ContentOutline", "Tree.xexample_linux_c");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample_sinit.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_SINIT_C");
+activateView("xexample_hw.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_HW_H");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+selectTextEditor("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.XEXAMPLE_H");
+selectMenuItem("Open Declaration", "xexample.h", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("OK", "Open Declaration", "Button", "OK");
+activateView("xexample_sinit.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_SINIT_C");
+activateView("xexample_linux.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_LINUX_C");
+activateView("xexample_sinit.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_SINIT_C");
+selectTreeTable("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2 > export > u96v2_sbc_mp4d_wrapper_Assignemnt2 > hw > drivers > example_v1_0 > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectTreeTable("helloworld.c", "Assignemt2_system > Assignemt2 > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Window", "Assignemt2", "WorkbenchWindow", "MenuItem.WINDOW");
+selectMenuItem("Preferences", "Assignemt2", "WorkbenchWindow", "MenuItem.PREFERENCES");
+selectTree("Appearance", "Additional > General", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("Colors and Fonts", "Additional > General > Appearance", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("Label Decorations", "Additional > General > Appearance", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("Colors and Fonts", "Additional > General > Appearance", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("Editors", "Additional > General", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("Globalization", "Additional > General", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+selectTree("UI Responsiveness Monitoring", "Additional > General", "Preferences", "CustomPreferenceDialog", "Tree.WorkbenchPreferenceManager");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("xexample.c", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+activateView("xexample.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XEXAMPLE_H");
+activateView("*helloworld.c", "Assignemt2/src/helloworld.c", "Editor", "CTabItem.*HELLOWORLD_C");
+selectToolBarButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectButton("OK", "Unable To Launch", "MessageDialog", "Button.OK");
+selectToolBarButton("Build Debug for project Assignemt2", "Assignemt2", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectTreeTable("Debug", "Assignemt2_system > Assignemt2", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Build Debug for project Assignemt2", "Assignemt2", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Assignemt2_system > Assignemt2", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectToolBarButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectButton("OK", "Unable To Launch", "MessageDialog", "Button.OK");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+activateView("xparameters.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XPARAMETERS_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectToolBarButton("Shows background operations in Progress view", "Assignemt2", "WorkbenchWindow", "ToolItem.SHOWS_BACKGROUND");
+activateView("Progress", "ProgressView", "CTabItem.PROGRESS");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarMenuButton("Run", "Assignemt2", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "helloworld.c", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectToolBarButton("Build Debug for project Assignemt2", "Assignemt2", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Assignemt2_system > Assignemt2", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Build Debug for project Assignemt2", "Assignemt2", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Assignemt2_system > Assignemt2", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch on Hardware", "Assignemt2", "WorkbenchWindow", "MenuItem.1_LAUNCH_ON_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("Cancel", "Open Declaration", "Button", "CANCEL");
+selectToolBarButton("Build Debug for project Assignemt2", "Assignemt2", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "Assignemt2_system > Assignemt2", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("xparameters.h", "u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc", "CEditor", "CTabItem.XPARAMETERS_H");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectTextEditor("helloworld.c", "Assignemt2/src/helloworld.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.HELLOWORLD_C");
+selectMenuItem("Open Declaration", "helloworld.c", "WorkbenchWindow", "MenuItem.OPEN_DECLARATION");
+selectButton("OK", "Open Declaration", "Button", "OK");
+activateView("helloworld.c", "Assignemt2/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Close", "Find/Replace", "FindReplaceDialog", "Button.CLOSE");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("Assignemt2", "Assignemt2_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");

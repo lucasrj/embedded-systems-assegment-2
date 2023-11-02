@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Assignemt2" location="/home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2/vitis/Assignemt2" platform="/home/oliver/Documents/Study/Embedded/Assigment2/embedded-systems-assegment-2/vitis/u96v2_sbc_mp4d_wrapper_Assignemnt2/export/u96v2_sbc_mp4d_wrapper_Assignemnt2/u96v2_sbc_mp4d_wrapper_Assignemnt2.xpfm" platformUID="sdu.dk/diii:u96v2_sbc_mp4d:u96v2_sbc_mp4d:1.0(custom)" systemProject="Assignemt2_system" sysConfig="u96v2_sbc_mp4d_wrapper_Assignemnt2" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="3034b3e78c72137bad5953311e1a7ded">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1895773938">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.611540426" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
