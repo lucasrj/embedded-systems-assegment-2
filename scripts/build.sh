@@ -180,7 +180,7 @@ build_petalinux ()
 				case $yn in
 					[Yy]* ) echo ; break;;
 					[Nn]* ) echo ; echo "Exiting..." ; echo ; exit;;
-					* ) echo "Please answer (Y/n)" ;;
+					* ) echo ;break;;
 				esac
 			done
 		fi

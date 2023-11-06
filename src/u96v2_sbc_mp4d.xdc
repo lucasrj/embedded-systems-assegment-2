@@ -59,7 +59,7 @@
 #set_property -dict { PACKAGE_PIN G5	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_5    }];  # "G5.HD_GPIO_5"
 #set_property -dict { PACKAGE_PIN A6	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_6    }];  # "A6.HD_GPIO_6"
 #set_property -dict { PACKAGE_PIN A7	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_7    }];  # "A7.HD_GPIO_7"
-#set_property -dict { PACKAGE_PIN G6	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_8    }];  # "G6.HD_GPIO_8"
+set_property -dict { PACKAGE_PIN G6	IOSTANDARD LVCMOS18 }  [get_ports {GPIO   }];  # "G6.HD_GPIO_8"
 #set_property -dict { PACKAGE_PIN E6	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_9    }];  # "E6.HD_GPIO_9"
 #set_property -dict { PACKAGE_PIN E5	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_10   }];  # "E5.HD_GPIO_10"
 #set_property -dict { PACKAGE_PIN D6	IOSTANDARD LVCMOS18 }  [get_ports {HD_GPIO_11   }];  # "D6.HD_GPIO_11"
