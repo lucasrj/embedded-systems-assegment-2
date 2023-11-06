@@ -46,15 +46,14 @@ int main()
 	  }
 	  tmp1.id = 0;
 	  tmp1.dest = 1;
-	  cout << "testing" << j << endl;
+	  cout << "testing " << tmp1.data << endl;
 	  A.write(tmp1);
   }
-	  cout << "data crated" << endl;
+	  cout << "data created" << endl;
   	  example(A,B);
 //	  B.read(tmp2);
 
-	  cout << "testing" << B.size() << endl;
-
+	  cout << "Port B data size: " << B.size() << endl;
 
 	  while(B.size())
 	  {

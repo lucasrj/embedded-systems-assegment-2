@@ -29,42 +29,42 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/.apc/.src</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/.apc/.tb</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/solution1/.tcls</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/example_hls.cpp</name>
 			<type>1</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/example_hls.cpp</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/example_hls.cpp</location>
 		</link>
 		<link>
 			<name>testbench/example_hls_tb.cpp</name>
 			<type>1</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/example_hls_tb.cpp</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/example_hls_tb.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/solution1/solution1.directive</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/solution1/directives.tcl</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/lucasrj/github/embeded_systems/hls/assigment2/solution1/script.tcl</location>
+			<location>/home/u000000/embedded-systems-assegment-2/hls/assigment2/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>
