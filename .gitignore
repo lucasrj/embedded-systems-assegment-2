@@ -5,6 +5,8 @@
 
 .*.swp
 
+
+*.xsa
 *.jou
 *.log
 .Xil

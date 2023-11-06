@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="example" xd:componentRef="example" xd:initiationInterval="x" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_AXI_CPU" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="A.data" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="A.keep" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="A.strb" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="A.last" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="B.data" xd:originalName="B" xd:direction="out" xd:interfaceRef="B" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="B.keep" xd:originalName="B" xd:direction="out" xd:interfaceRef="B" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="B.strb" xd:originalName="B" xd:direction="out" xd:interfaceRef="B" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="B.last" xd:originalName="B" xd:direction="out" xd:interfaceRef="B" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="132" xd:FF="41" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

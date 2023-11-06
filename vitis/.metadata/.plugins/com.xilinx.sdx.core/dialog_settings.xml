@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/home/lucasrj/github/embeded_systems/vitis/dma/export/dma;/home/lucasrj/github/embedded-systems-assegment-2/vitis/dma/export/dma;/home/lucasrj/github/embedded-systems-assegment-2/vitis/dma_simple_test/export/dma_simple_test;/home/lucasrj/github/embedded-systems-assegment-2/vitis/dma_led_test/export/dma_led_test;/home/lucasrj/github/embedded-systems-assegment-2/vitis/dma_led_test2/export/dma_led_test2"/>
+</section>

@@ -1,0 +1,10 @@
+example_AXI_CPU_s_axi
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example_regslice_both
+example

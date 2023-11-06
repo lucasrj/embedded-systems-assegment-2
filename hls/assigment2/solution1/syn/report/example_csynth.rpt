@@ -1,0 +1,167 @@
+
+
+================================================================
+== Vitis HLS Report for 'example'
+================================================================
+* Date:           Sat Nov  4 04:19:13 2023
+
+* Version:        2020.2.2 (Build 3118627 on Tue Feb  9 05:13:49 MST 2021)
+* Project:        assigment2
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  1.203 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|     none|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_17_1  |        ?|        ?|         2|          1|          1|     ?|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     45|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    -|      36|     40|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     47|    -|
+|Register         |        -|    -|       5|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      41|    132|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      432|  360|  141120|  70560|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------+---------------+---------+----+----+----+-----+
+    |     Instance    |     Module    | BRAM_18K| DSP| FF | LUT| URAM|
+    +-----------------+---------------+---------+----+----+----+-----+
+    |AXI_CPU_s_axi_U  |AXI_CPU_s_axi  |        0|   0|  36|  40|    0|
+    +-----------------+---------------+---------+----+----+----+-----+
+    |Total            |               |        0|   0|  36|  40|    0|
+    +-----------------+---------------+---------+----+----+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |B_TDATA_int_regslice              |         -|   0|  0|  39|           8|          32|
+    |ap_block_pp0_stage0_01001         |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                     |       xor|   0|  0|   2|           1|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  45|          11|          36|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |A_TDATA_blk_n            |   9|          2|    1|          2|
+    |B_TDATA_blk_n            |   9|          2|    1|          2|
+    |ap_NS_fsm                |  20|          4|    1|          4|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  47|         10|    4|         10|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+---+----+-----+-----------+
+    |           Name          | FF| LUT| Bits| Const Bits|
+    +-------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                |  3|   0|    3|          0|
+    |ap_enable_reg_pp0_iter0  |  1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
+    +-------------------------+---+----+-----+-----------+
+    |Total                    |  5|   0|    5|          0|
+    +-------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-----------------------+-----+-----+------------+--------------+--------------+
+|s_axi_AXI_CPU_AWVALID  |   in|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_AWREADY  |  out|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_AWADDR   |   in|    4|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_WVALID   |   in|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_WREADY   |  out|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_WDATA    |   in|   32|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_WSTRB    |   in|    4|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_ARVALID  |   in|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_ARREADY  |  out|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_ARADDR   |   in|    4|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_RVALID   |  out|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_RREADY   |   in|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_RDATA    |  out|   32|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_RRESP    |  out|    2|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_BVALID   |  out|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_BREADY   |   in|    1|       s_axi|       AXI_CPU|   return void|
+|s_axi_AXI_CPU_BRESP    |  out|    2|       s_axi|       AXI_CPU|   return void|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|       example|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|       example|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|       example|  return value|
+|A_TDATA                |   in|   32|        axis|    A_V_data_V|       pointer|
+|A_TVALID               |   in|    1|        axis|    A_V_last_V|       pointer|
+|A_TREADY               |  out|    1|        axis|    A_V_last_V|       pointer|
+|A_TLAST                |   in|    1|        axis|    A_V_last_V|       pointer|
+|A_TKEEP                |   in|    4|        axis|    A_V_keep_V|       pointer|
+|A_TSTRB                |   in|    4|        axis|    A_V_strb_V|       pointer|
+|B_TDATA                |  out|   32|        axis|    B_V_data_V|       pointer|
+|B_TVALID               |  out|    1|        axis|    B_V_last_V|       pointer|
+|B_TREADY               |   in|    1|        axis|    B_V_last_V|       pointer|
+|B_TLAST                |  out|    1|        axis|    B_V_last_V|       pointer|
+|B_TKEEP                |  out|    4|        axis|    B_V_keep_V|       pointer|
+|B_TSTRB                |  out|    4|        axis|    B_V_strb_V|       pointer|
++-----------------------+-----+-----+------------+--------------+--------------+
+
